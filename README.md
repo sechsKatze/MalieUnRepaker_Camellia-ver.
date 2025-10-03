@@ -14,6 +14,7 @@ Caution
 1. The current repack code with encryption is not recognized by the game due to unresolved issues. Only plaintext (unencrypted) repacking is supported at this time.
 2. Due to a limitation of the engine, filenames longer than 20 bytes will be truncated and not recognized in-game. You must manually shorten them using a hex editor.
 3. This tool is intended for use only with Malie engine archives that utilize the Camellia encryption algorithm. It does not work with newer versions of the Malie engine.
+4. The Malie engine does not maintain a consistent file region order, and its file index table is further complicated by hierarchical directories. Therefore, during unpacking this tool generates a metadata.json file containing all directory and file information. When repacking, this JSON file is required, as it preserves and reproduces both the file order and entry index sequence.
 
 Supported games
 ======
