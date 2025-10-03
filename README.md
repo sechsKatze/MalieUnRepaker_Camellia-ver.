@@ -9,15 +9,28 @@ The Camellia decryption key table list is derived from code written by morkt and
 .
 Many thanks to them for their work.
 
-
-Supported games
-======
-※ All Malie engine archives that use the 「Camellia encryption algorithm」 can be fully unpacked and repacked.
-
 Caution
 ======
 1. The current repack code with encryption is not recognized by the game due to unresolved issues. Only plaintext (unencrypted) repacking is supported at this time.
 2. Due to a limitation of the engine, filenames longer than 20 bytes will be truncated and not recognized in-game. You must manually shorten them using a hex editor.
+3. This tool is intended for use only with Malie engine archives that utilize the Camellia encryption algorithm. It does not work with newer versions of the Malie engine.
+
+Supported games
+======
+※ All Malie engine archives that use the 「Camellia encryption algorithm」 can be fully unpacked and repacked.
+- Omerta -Chinmoku no Okite- (オメルタ -沈黙の掟-) ※BL
+- Omerta CODE:TYCOON (オメルタ CODE:TYCOON) ※BL
+- Omega Vampire (オメガヴァンパイア) ※BL
+- Danzai no Maria -The Exorcism of Maria- (断罪のマリア　THE EXORCISM OF MARIA)
+- Zettai Meikyuu Grimm -Nanatsu no Kagi to Rakuen no Otome- (絶対迷宮グリム -七つの鍵と楽園の乙女-)
+- Paradise Lost
+- Dies irae
+- Kajiri Kamui Kagura Premier Trial (神咒神威神楽 体験版)
+- Kajiri Kamui Kagura (神咒神威神楽)
+- Kajiri Kamui Kagura Akebono no Hikari (神咒神威神楽 曙之光)
+- Zero Infinity -Devil of Maxwell-
+- Electro Arms -Realize Digital Dimension-
+- Soushuu Senshinkan Gakuen: Hachimyoujin (相州戦神館學園 八命陣)
 
 Credits
 ======
