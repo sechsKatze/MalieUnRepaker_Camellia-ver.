@@ -9,10 +9,12 @@ The Camellia decryption key table list is derived from code written by morkt and
 .
 Many thanks to them for their work.
 
----------
-Supported games
 
-------
+Supported games
+======
+
+
 Special Thanks
+======
 
 
