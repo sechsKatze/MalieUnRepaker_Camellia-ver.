@@ -12,9 +12,18 @@ Many thanks to them for their work.
 
 Supported games
 ======
+※ All Malie engine archives that use the 「Camellia encryption algorithm」 can be fully unpacked and repacked.
 
-
-Special Thanks
+Caution
 ======
+1. The current repack code with encryption is not recognized by the game due to unresolved issues. Only plaintext (unencrypted) repacking is supported at this time.
+2. Due to a limitation of the engine, filenames longer than 20 bytes will be truncated and not recognized in-game. You must manually shorten them using a hex editor.
 
+Credits
+======
+## Original author
+- **morkt**  — Original author of [GARbro](https://github.com/morkt/GARbro), from which the unpacking logic was ported.
+- **asmodean**  — Created the original Camellia key table used for Malie engine decryption.
+## Special Thanks
+- **Neidhardt** — Deepest thanks for your technical support and kind assistance.
 
