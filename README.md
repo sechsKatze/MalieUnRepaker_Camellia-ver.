@@ -33,6 +33,10 @@ Supported games
 - Electro Arms -Realize Digital Dimension-
 - Soushuu Senshinkan Gakuen: Hachimyoujin (相州戦神館學園 八命陣)
 
+User manual
+======
+- [Korean ver.](https://note.com/sechskatze_note/n/n71fb8b96e78f)
+
 Credits
 ======
 ## Original author
