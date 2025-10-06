@@ -44,3 +44,4 @@ Credits
 - **asmodean**  — Created the original Camellia key table used for Malie engine decryption.
 ## Special Thanks
 - **Neidhardt** — Deepest thanks for your technical support and kind assistance.
+- **[DanOl98](https://github.com/DanOl98)** — The layout design of the Malie UnRepacker GUI version is based on [MagesPack](https://github.com/DanOl98/MagesPack).
