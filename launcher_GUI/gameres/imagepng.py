@@ -1,3 +1,29 @@
+# imagepng.py - Camellia cipher decryptor used in GARbro's Malie engine handler
+# Ported from C# by morkt (GARbro: https://github.com/morkt/GARbro)
+
+# MIT License (for GARbro ported structure)
+# Copyright (c) morkt
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# GARbro(by. morkt) 1.1.6 ver.을 기준으로 Python으로 포팅.
+
 import logging
 import struct
 from io import BytesIO
@@ -144,4 +170,5 @@ class PngFormat(ImageFormat):
             logging.debug("[imagepng] PIL 기반 PNG 저장 완료 (optimize=True, compress_level=9)")
 
         except Exception as e:
+
             logging.error(f"[imagepng] PIL 기반 PNG 저장 실패: {e}", exc_info=True)
